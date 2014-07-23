@@ -22,6 +22,7 @@ set(project_policies
   CMP0013 # NEW: Duplicate binary directories are not allowed.
   CMP0014 # NEW: Input directories must have CMakeLists.txt
   CMP0020 # NEW: disable autolinking to qtmain as we have our own main() functions (new in Qt 5.1)
+  CMP0043 # NEW: Ignore COMPILE_DEFINITIONS_<Config> properties
   )
   
 foreach(policy ${project_policies})
